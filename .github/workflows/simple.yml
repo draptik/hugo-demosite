@@ -14,6 +14,5 @@ jobs:
         
     - name: Hugo setup
       uses: srt32/hugo-action@master
-      needs: "Filter for GitHub actions"
-      args: "--theme=ananke"
+
         
