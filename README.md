@@ -1,8 +1,12 @@
 # hugo-demosite
 
-Goal: Each git commit to master branch automatically triggers deployment to cloud provider.
+Goal: Each git commit to master branch automatically triggers deployment to cloud provider (currently only AWS with S3).
+
+This hugo demo project uses GitHub Actions as CI/CD pipeline. See `.github/workflows/deploy.yml` for details.
 
 ## AWS
+
+This section describes AWS prerequisites.
 
 ### Create account
 
