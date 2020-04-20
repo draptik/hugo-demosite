@@ -1,8 +1,8 @@
-name: CI
+name: CI/CD
 on: push
 
 jobs:
-  build:
+  Build_Deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repository
