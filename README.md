@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/draptik/hugo-demosite/workflows/CI/CD/badge.svg)
+
 # hugo-demosite
 
 Goal: Each git commit to master branch automatically triggers deployment to cloud provider (currently only AWS with S3).
