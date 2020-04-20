@@ -3,3 +3,8 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hyde"
 
+[deployment]
+
+[[deployment.targets]]
+name = "mydeployment"
+URL = "s3://my-hugo-demo?region=eu-central-1"
