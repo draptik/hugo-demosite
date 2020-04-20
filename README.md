@@ -1,4 +1,4 @@
-![CI/CD](https://github.com/draptik/hugo-demosite/workflows/CI/CD/badge.svg)
+![CI/CD: github actions deploys to S3](https://github.com/draptik/hugo-demosite/workflows/CI/CD/badge.svg)
 
 # hugo-demosite
 
