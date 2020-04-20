@@ -8,6 +8,8 @@ This hugo demo project uses GitHub Actions as CI/CD pipeline. See `.github/workf
 
 ## AWS
 
+We want to publish to an external system: The external system (AWS / S3) has to be set up correctly.
+
 This section describes AWS prerequisites.
 
 ### Create account
