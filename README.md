@@ -26,9 +26,12 @@ This section describes AWS prerequisites.
 
 ### Add AWS Credentials to GitHub Project Secrets
 
-- Within GitHub project homepage: Create 2 new 'secrets' (Note: Secrets can't be viewed or modified once their created). These secrets are used in the deployment script `.github/workflows/deploy.yml`. Settings -> Secrets -> Add a new secret
+- Within GitHub project homepage: Create 2 new 'secrets'. `Settings -> Secrets -> Add a new secret`
   - `AWS_ACCESS_KEY_ID`
   - `AWS_SECRET_ACCESS_KEY`
+
+- Note: Secrets can't be viewed or modified once their created.
+- These secrets are used in the deployment script `.github/workflows/deploy.yml`.
 
 ### Setup S3 Bucket
 
