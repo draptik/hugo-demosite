@@ -6,10 +6,9 @@ theme = "hyde"
 [deployment]
 
 [[deployment.targets]]
-name = "mydeployment"
-
-# AWS S3
+name = "AWS S3"
 URL = "s3://my-hugo-demo?region=eu-central-1"
 
-# Azure Blob Storage
-# URL = "azblob://$web"
+[[deployment.targets]]
+name = "Azure Blob Storage"
+URL = "azblob://$web"
